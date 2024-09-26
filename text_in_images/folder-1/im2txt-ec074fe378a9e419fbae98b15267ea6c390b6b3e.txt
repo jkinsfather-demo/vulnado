@@ -1,0 +1,20 @@
+Source Mode:
+1. text text text [#cmt](comments with spaces)
+2. text text text [#cmt](commentswithoutspaces)
+3. text text text [text](additional info) text
+4. text text text [text](additionalinfo) text
+5. [a real link](https://www.google.com)
+Live Preview Mode:
+1. text text text #cmt
+2. text text text #cmt
+3. text text text text text
+4. text text text text text
+5. a real link
+Preview Mode:
+1. text text text [ #cmt ](comments with spaces)
+1
+2. text text text commentswithoutspaces
+#cmt
+3. text text text [text](additional info) text
+4. text text text additionalinfo 1 text
+5. a real link
