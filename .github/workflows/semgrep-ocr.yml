@@ -12,6 +12,10 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@v4
+      # Add this to disable X11-based ImageMagick commands
+      - name: Disable X11 for ImageMagick
+        run: |
+          export DISPLAY=:0      
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
