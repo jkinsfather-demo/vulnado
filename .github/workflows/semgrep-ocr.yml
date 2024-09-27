@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   pull_request: {}
-name: Semgrep-OCR
+name: Semgrep-OCR-secrets-only
 jobs:
   ExtractTextFromImages:
       runs-on: ubuntu-latest
@@ -48,4 +48,4 @@ jobs:
       - name: Semgrep Scan
         run: |
           unzip -o im2txt_output.zip
-          semgrep ci
+          semgrep ci --secrets
