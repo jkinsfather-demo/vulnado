@@ -1,3 +1,4 @@
+USER jkjkjk
 FROM openjdk:8
 
 RUN apt-get update && \
