@@ -62,7 +62,6 @@ Navigate to http://localhost:1337 and you'll be presented with a login page. Now
 
   ```
   $ sudo nc -l 18200
-  OPTIONS /eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaWNrIn0.lLdv2SY2TWzzXVKSahFDWPLcUHwpXpjsLnhwo0ioRFM HTTP/1.1
   Host: localhost:18200
   Connection: keep-alive
   Access-Control-Request-Method: GET
